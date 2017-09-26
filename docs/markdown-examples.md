@@ -30,6 +30,35 @@ Nagłówek drugiego poziomu
 
 ### Listy punktowane <!--- Paweł -->
 
+Punktowane listy używają asterysków, plusów i dywizów (*, + i -) jako znaczników listy. Te trzy znaczniki są wymienne:
+
+#### Składnia
+```markdown
+*   Cukierki.
+*   Guma.
+*   Lizaki.
+
++   Cukierki.
++   Guma.
++   Lizaki.
+
+-   Cukierki.
+-   Guma.
+-   Lizaki.
+```
+
+Wszystkie dadzą ten sam wynik:
+
+#### Wynik
+```html
+<ul>
+<li>Cukierki.</li>
+<li>Guma.</li>
+<li>Lizaki.</li>
+</ul>
+```
+
+
 ### Listy numerowane <!--- Marcin -->
 
 ### Linki "w tekście" <!--- Mateusz -->
